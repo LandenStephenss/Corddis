@@ -1,0 +1,33 @@
+{
+  "name": "corddis",
+  "version": "0.1.0",
+  "description": "A really cool Discord library",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint lib || true",
+    "lint:fix": "eslint --fix lib || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apacheopteryx/Corddis.git"
+  },
+  "keywords": [
+    "corddis",
+    "discord",
+    "discord-api",
+    "library",
+    "nodejs"
+  ],
+  "author": "Apacheli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apacheopteryx/Corddis/issues"
+  },
+  "homepage": "https://github.com/Apacheopteryx/Corddis#readme",
+  "dependencies": {
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
