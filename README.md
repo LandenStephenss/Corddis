@@ -17,6 +17,17 @@ You will need Node 12.13+. To install Node.js, click [here](https://nodejs.org).
 * [Erlpack](https://github.com/discordapp/erlpack) if you wish to use ETF
 encoding
 
+## Contributing
+If you wish to contribute to Corddis, then feel free to fork and clone the repo.
+Here are some general guidelines about contributing:
+* The issue tracker is only for bugs and suggestions. If you're in need of
+support, then please consider joining the Discord server
+* No property should be `undefined`. If you encounter this, then it is
+considered a bug
+* Always run the linter before you commit or open a PR
+* If your believe that your change is large, then please consider discussing
+about it at the Discord server
+
 ## Questions
 If you have any questions, then feel free to join our support server
 [here](https://discord.gg/CUPPjk6).
