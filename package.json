@@ -4,8 +4,8 @@
   "description": "A really cool Discord library",
   "main": "lib",
   "scripts": {
-    "lint": "eslint lib || true",
-    "lint:fix": "eslint --fix lib || true"
+    "lint": "eslint lib test || true",
+    "lint:fix": "eslint --fix lib test || true"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "ws": "^7.2.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0"
   }
 }
