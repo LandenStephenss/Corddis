@@ -42,3 +42,9 @@ const messageCreate = async (data) => {
 client.gateway.listen(messageCreate);
 
 client.gateway.connect();
+
+const messageReactionAdd = (data) => {
+  console.log(data);
+};
+
+client.gateway.listen(messageReactionAdd);
